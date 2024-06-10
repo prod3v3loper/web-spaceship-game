@@ -48,7 +48,7 @@ To embed the game into your website, add the following HTML to your webpage:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -58,12 +58,14 @@ To embed the game into your website, add the following HTML to your webpage:
 </head>
 
 <body>
-    <button class="bt btn-secondary" id="wax-game-btn"><i class="fa fa-dice"></i>START GAME</button>
-    <div id="wax-game" class="grid-12">
+
+    <button class="bt btn-secondary" id="p3-game-btn"><i class="fa fa-dice"></i>START GAME</button>
+
+    <div id="p3-game" class="grid-12">
         <canvas width="600" height="800"></canvas>
         <button id="restart" onclick="restart();">PLAY AGAIN</button>
-        <button id="start" onclick="start();">START GAME</button>
-        <button id="stop" onclick="stop();">STOP GAME</button>
+        <button id="start" onclick="start();">START</button>
+        <button id="stop" onclick="stop();">STOP</button>
     </div>
 
     <script src="js/spaceship.js"></script>
