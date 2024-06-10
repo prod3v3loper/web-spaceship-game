@@ -1,0 +1,98 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid;
+    background: #34495e;
+}
+
+#wax-game {
+
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 600px;
+    height: 800px;
+    display: none;
+    box-shadow: rgba(#3A7BD5, .8) 3px 6px 10px;
+    border: 1px solid rgb(54, 52, 72);
+}
+
+
+#info {
+    font-size: 20px;
+}
+
+#meteor {
+    font-size: 20px;
+}
+
+#restart {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 5%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    bottom: 0;
+    margin: auto;
+    display: none;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+#start {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 5%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+#stop {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 20%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #c6c6c6;
+}
+
+h3 {
+    font-family: trebuchet MS;
+}
+
+.info {
+    float: left;
+    margin-left: 25px;
+}
+
+.btn-info {
+    width: 50;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+}
