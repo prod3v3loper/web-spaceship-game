@@ -218,7 +218,10 @@ function start() {
 }
 
 function stop() {
-    document.getElementById('wax-game').style.display = 'none';
+    document.getElementById('stop').style.display = 'none';
+    document.getElementById('restart').style.display = 'none';
+    document.getElementById('p3-game').style.display = 'none';
+    document.getElementById('p3-game-btn').style.display = 'block';
     ctx.clearRect(0, 0, cnv.width, cnv.height);
     ctx.drawImage(background, 0, 0);
     cancelAnimationFrame(id);
@@ -227,7 +230,7 @@ function stop() {
 function restart() {
     id = requestAnimationFrame(main, cnv);
     document.getElementById('restart').style.display = 'none';
-    document.getElementById('stop').style.display = 'none';
+    document.getElementById('stop').style.display = 'inline-block';
     meteors.forEach((meteor, i) => {
         meteors[i].y = -70;
     });
@@ -249,12 +252,19 @@ function main() {
 }
 
 function init() {
-    if (document.getElementById('wax-game-btn')) {
-        document.getElementById('wax-game-btn').addEventListener('click', () => {
+
+    if (document.getElementById('p3-game-btn')) {
+
+        document.getElementById('p3-game-btn').addEventListener('click', () => {
+
+            document.getElementById('p3-game').style.display = 'flex';
+            document.getElementById('p3-game-btn').style.display = 'none';
+            document.getElementById('start').style.display = 'inline-block';
+
             ctx.clearRect(0, 0, cnv.width, cnv.height);
             ctx.drawImage(background, 0, 0);
-            document.getElementById('wax-game').style.display = 'block';
         });
+
         document.getElementById('start').addEventListener('click', () => {
             main();
         }, false);
