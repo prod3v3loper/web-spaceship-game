@@ -91,11 +91,11 @@ Choose template and report a bug or feature you want [issues](https://github.com
 
 # CONTRIBUTE
 
-Please read the [contributing](https://github.com/prod3v3loper/web-spaceship-game/blob/master/.github/CONTRIBUTING.md) to contribute.
+Please read the [contributing](https://github.com/prod3v3loper/web-spaceship-game/blob/main/.github/CONTRIBUTING.md) to contribute.
 
 # VULNERABILITY
 
-Please use the Security section for privately reporting a [vulnerability](https://github.com/prod3v3loper/web-spaceship-game/security).
+Please use the Security section for privately reporting a [vulnerability](https://github.com/prod3v3loper/web-spaceship-game/blob/main/.github/SECURITY.md).
 
 # Authors
 
@@ -103,4 +103,4 @@ Please use the Security section for privately reporting a [vulnerability](https:
 
 # License
 
-[MIT](https://github.com/prod3v3loper/web-spaceship-game/blob/master/LICENSE)
+[MIT](https://github.com/prod3v3loper/web-spaceship-game/blob/main/LICENSE)
